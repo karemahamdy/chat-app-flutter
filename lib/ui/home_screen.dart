@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        foregroundColor: Colors.grey,
+        foregroundColor: Colors.transparent,
         elevation: 0,
         title: const Text("HOME",
         style: TextStyle(
@@ -62,7 +62,7 @@ class BuildUserList extends StatelessWidget {
                 Text(
                   "Loading",
                   style: TextStyle(
-                    color: Theme.of(context).colorScheme.primary,
+                    color: Colors.blue,
                     fontSize: 20,
                   ),
                 ),
