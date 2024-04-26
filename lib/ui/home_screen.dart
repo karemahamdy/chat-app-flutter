@@ -18,18 +18,18 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       drawer: const MyDrawer(),
       backgroundColor: Theme.of(context).colorScheme.background,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        foregroundColor: Colors.transparent,
-        elevation: 0,
-        title: const Text("Message",
-        style: TextStyle(
-                    color: Colors.blue,
-                    fontSize: 20,
-                  ),
-      ),
-        centerTitle: true,
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   foregroundColor: Colors.transparent,
+      //   elevation: 0,
+      //   title: const Text("Message",
+      //   style: TextStyle(
+      //               color: Colors.blue,
+      //               fontSize: 20,
+      //             ),
+      // ),
+      //   centerTitle: true,
+      // ),
       body: const BuildUserList(),
     );
   }
