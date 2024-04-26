@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         foregroundColor: Colors.transparent,
         elevation: 0,
-        title: const Text("HOME",
+        title: const Text("Message",
         style: TextStyle(
                     color: Colors.blue,
                     fontSize: 20,
